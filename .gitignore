@@ -12,3 +12,4 @@ __pycache__/
 # ngrok
 ngrok
 ngrok-v3-stable-linux-amd64.tgz
+ngrok.yml

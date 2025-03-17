@@ -1,0 +1,23 @@
+[project]
+name = "slack-ai-bot"
+description = "Slack bot that integrates with AI assistants"
+
+[git]
+# Enable Git integration
+enabled = true
+# Automatically commit changes made by Claude
+auto_commit = true
+# Commit message prefix for changes made by Claude
+commit_message_prefix = "[Claude] "
+
+[filesystem]
+# Directories that Claude can access
+allowed_dirs = ["."]
+# File extensions that Claude can modify
+allowed_extensions = [".py", ".md", ".txt", ".env.example", ".json", ".toml"]
+
+[tools]
+# Enable running commands
+run_commands = true
+# Default shell to use for commands
+shell = "/bin/zsh" 
