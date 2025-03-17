@@ -1,0 +1,14 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+*.log
+
+# ngrok
+ngrok
+ngrok-v3-stable-linux-amd64.tgz
